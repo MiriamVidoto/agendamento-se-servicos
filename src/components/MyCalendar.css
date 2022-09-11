@@ -1,0 +1,15 @@
+:root {
+  --dark1: #181818;
+  --dark2: #222222;
+  --dark3: #464646;
+  --orange: #f78511;
+  --yellow: #f0d127;
+}
+
+.calendar-container {
+  background-color: var(--dark2);
+  border-radius: 5px;
+  height: 500px;
+  margin-left: 135px;
+  width: 500px;
+}

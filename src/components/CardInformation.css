@@ -6,18 +6,9 @@
   --yellow: #f0d127;
 }
 
-body {
-  background-color: red;
-}
-
-main {
+.container-information {
+  width: 570px;
   background-color: var(--dark1);
-  height: 100vh;
   display: flex;
-}
-
-h2 {
-  background-color: var(--dark1);
-  color: var(--orange);
-  text-align: center;
+  flex-direction: column;
 }
