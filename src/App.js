@@ -1,11 +1,14 @@
-import { Route, Switch } from 'react-router-dom';
-import Scheduling from './pages/Scheduling';
+import { AuthEmailProvider } from './contexts/authEmail/authEmail';
+import { AuthGoogleProvider } from './contexts/authGoogle/authGoogle';
+import AppRoutes from './routes/AppRoutes';
 
 function App() {
   return (
-      <Switch>
-        <Route exact path="/" component={Scheduling} />
-      </Switch>
+    <AuthGoogleProvider>
+      <AuthEmailProvider>
+        <AppRoutes />
+      </AuthEmailProvider>
+    </AuthGoogleProvider>
   );
 }
 

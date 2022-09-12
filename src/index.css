@@ -6,14 +6,17 @@
   --yellow: #f0d127;
 }
 
-body {
-  background-color: red;
+#root{
+  background-color: var(--dark1);
 }
+
 
 main {
   background-color: var(--dark1);
-  height: 100vh;
+  height: 92vh;
   display: flex;
+  margin: auto;
+  width: 1170px;
 }
 
 h2 {
